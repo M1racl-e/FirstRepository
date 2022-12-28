@@ -1,13 +1,12 @@
 package com.kolosovvlad.betsesports.security.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.Mapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class SecurityController {
-    @GetMapping("/")
+    @PostMapping("/")
     public void securityPage() {
-        System.out.println("Delete all Prodject");
+        System.out.println("Send going");
     }
 }
