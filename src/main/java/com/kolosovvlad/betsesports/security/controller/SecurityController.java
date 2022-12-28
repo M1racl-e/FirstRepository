@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class SecurityController {
     @GetMapping("/")
     public void securityPage(){
-        return;
+        System.out.println("All work"); //from master
     }
 
 }
