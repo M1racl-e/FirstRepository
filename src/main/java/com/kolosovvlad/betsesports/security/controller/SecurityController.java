@@ -6,8 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class SecurityController {
     @GetMapping("/")
-    public void securityPage(){
+    public void securityPage() {
         System.out.println("All work"); //from master
     }
-
 }
