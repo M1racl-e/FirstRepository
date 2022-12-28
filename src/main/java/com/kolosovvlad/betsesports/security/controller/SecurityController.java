@@ -13,6 +13,6 @@ public class SecurityController {
 
     @GetMapping("/api")
     public void secr(){
-        System.out.println("Sect");
+        System.out.println("afkndksfnkksd");
     }
 }
